@@ -9,7 +9,7 @@ const messages = {
       img: 'img/amor2.jpg',
     },
     {
-      msg: 'Tu eres mi todo, quiere que te lleve algo? dimelo 💪',
+      msg: 'Tu eres mi todo, ¿quieres que te lleve algo? dimelo 💪',
       img: 'img/amor3.jpg',
     },
   ],
