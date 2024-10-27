@@ -3,47 +3,47 @@ import './App.css'
 
 const messages = {
   triste: [
-    { msg: 'Te admiro muchisimo mi amor ❤️', img: 'public/img/amor1.jpg' },
+    { msg: 'Te admiro muchisimo mi amor ❤️', img: '/public/img/amor1.jpg' },
     {
       msg: 'Recuerda que tu novio siempre estara para ti, llamame 😘',
-      img: 'public/img/amor2.jpg',
+      img: '/public/img/amor2.jpg',
     },
     {
       msg: 'Tu eres mi todo, quiere que te lleve algo? dimelo 💪',
-      img: 'public/img/amor3.jpg',
+      img: '/public/img/amor3.jpg',
     },
   ],
   feliz: [
     {
       msg: 'Lograremos muchisimas cosas juntos 😊',
-      img: 'public/img/amor9.jpg',
+      img: '/public/img/amor9.jpg',
     },
-    { msg: 'Eres mi alegría cada día 🥰', img: 'public/img/amor5.jpg' },
+    { msg: 'Eres mi alegría cada día 🥰', img: '/public/img/amor5.jpg' },
     {
       msg: 'Eres la razón de mi felicidad 🌟',
-      img: 'public/img/amor6.jpg',
+      img: '/public/img/amor6.jpg',
     },
   ],
   extrana: [
-    { msg: 'Yo también te extraño mucho 💕', img: 'public/img/amor7.jpg' },
-    { msg: 'Pronto estaremos juntos ❤️', img: 'public/img/amor8.jpg' },
+    { msg: 'Yo también te extraño mucho 💕', img: '/public/img/amor7.jpg' },
+    { msg: 'Pronto estaremos juntos ❤️', img: '/public/img/amor8.jpg' },
     {
       msg: 'Quisiera estar contigo yaaa 😢',
-      img: 'public/img/amor9.jpg',
+      img: '/public/img/amor9.jpg',
     },
   ],
   enojada: [
     {
       msg: 'Quisiera abrazarte hasta que se te pase 🥰',
-      img: 'public/img/amor10.jpg',
+      img: '/public/img/amor10.jpg',
     },
     {
       msg: 'Todo tiene solucion mi amor, saldremos de esto juntos 🫂',
-      img: 'public/img/amor11.jpg',
+      img: '/public/img/amor11.jpg',
     },
     {
       msg: 'Recuerda que te amo, incluso cuando estás enojada ❤️',
-      img: 'public/img/amor1.jpg',
+      img: '/public/img/amor1.jpg',
     },
   ],
 }
