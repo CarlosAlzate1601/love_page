@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h2{
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #752188;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 45%;
+}
+
+button:hover {
+  background-color: #331848;
+}
+
+.message-container {
+  margin-top: 20px;
+}
+
+.message-container p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.message-container img {
+  max-width: 300px; /* Tamaño máximo de la imagen */
+  max-height: 300px; /* Tamaño máximo de la altura */
+  width: auto; /* Mantiene la proporción de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 15px;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 600px;
+    padding: 30px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  button {
+    font-size: 15px;
+    width: 20%;
+  }
+
+  .message-container p {
+    font-size: 20px;
+  }
+
+  .message-container img {
+    max-width: 400px; /* Tamaño máximo de la imagen */
+    max-height: 400px; /* Tamaño máximo de la altura */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 15px;
+  }
+}
+
+@media(min-width: 730px){
+  .container {
+    max-width: 600px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  button {
+    font-size: 15px;
+    width: 20%;
+  }
+
+  .message-container p {
+    font-size: 20px;
+  }
+
+  .message-container img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 12px 20px;
+    width: 22%;
+  }
+
+  .message-container p {
+    font-size: 22px;
+  }
+
+  .message-container img {
+    max-width: 500px;
+  }
+}
